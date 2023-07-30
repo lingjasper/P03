@@ -9,11 +9,11 @@ body {
 }
 /* HYPERLINK */
 a { 
-  color: #0469f7;
+  color: #000000;
 }
 /* HYPERLINK HOVER */
 a:hover {
-  color: #1fade0;
+  color:  #0469f7;
   transition: 0.25s ease-in-out;
 }
 
@@ -222,6 +222,13 @@ input:focus {
 }
 
 
+.bio {
+  padding: 0px 30px 40px;
+}
+
+
+
+
 /*footer learned from https://youtu.be/JViuPwlP1mU*/
 footer{
   position: relative;
@@ -318,7 +325,7 @@ footer .container .contact li a {
 	padding: 0 25px;
 	z-index: 2;
 	background: #fff;
-	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	/* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); */
 }
 
 .logo-container {
