@@ -94,7 +94,7 @@ code {
   display: inline-block;
   padding: 0.5rem;
   color: white; 
-  background-color: #1FADE0;
+  background-color: black;
   text-decoration: none;
   transition-property: background-color;
   transition-duration: 0.25s;
