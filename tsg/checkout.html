@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+    <title>P01: Process</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/grid.css"> 
+</head>
+
+<body>
+    <header>
+    <h1>P01</h1>
+        <nav class="navbar">  
+        <a class="nav-link nav-bar-up" href="index.html">Style Guide</a>
+        <a class="nav-link nav-bar-up" href="product_page.html">Products</a>
+        <a class="nav-link nav-bar-up" href="checkout.html">Checkout</a>
+        </nav>
+    </header>
+
+<!-- Primarily learned in lab, some extra help from https://www.w3schools.com/howto/howto_css_checkout_form.asp-->
+    <h2>Checkout</h2>
+    <div class="checkout-container">
+        <form action="">
+            <div class="row">
+                <div class="col">
+                    <h3 class="title">Billing Address</h3>
+
+                    <div class="infobox">
+                        <input type="text" placeholder="Full Name">
+                    </div>
+                    <div class="infobox">
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <div class="infobox">
+                        <input type="text" placeholder="Address">
+                    </div>
+                    <div class="infobox">
+                        <input type="text" placeholder="Province">
+                    </div>
+                    <div class="infobox">
+                        <input type="text" placeholder="City">
+                    </div>
+                    <div class="infobox">
+                        <input type="text" placeholder="Postal Code">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <h3 class="title">Secure Payment</h3>
+                   
+                    <input type="radio" id="payment1" name="payment" value="MasterCard">
+                    <label for="payment1">MasterCard</label><br>
+                    <input type="radio" id="payment2" name="payment" value="Visa">
+                    <label for="payment2">Visa</label><br> 
+                    <input type="radio" id="payment3" name="payment" value="PayPal">
+                    <label for="payment2">PayPal</label><br>   
+
+                    <div class="infobox">
+                        <input type="text" placeholder="Cardholder Name">
+                    </div>
+                    <div class="infobox">
+                        <input type="text" placeholder="Card Number">
+                    </div>
+                    <div class="infobox">
+                        <input type="text" placeholder="MM/YY">
+                    </div>
+                    <div class="infobox">
+                        <input type="text" placeholder="CVV">
+                    </div>
+                    <div class="infobox">
+                        <input type="text" placeholder="Phone Number">
+                    </div>                                        
+                </div>
+                
+                <label><input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing</label>
+
+                <div class="cartcol">
+                    <h4>Shopping Cart</h4><br>
+                    <p><a class="text-link" href="product_page.html">Product 1</a> <span class="price">Free</span></p>
+                    <p><a class="text-link" href="product_page.html">Product 2</a> <span class="price">$185</span></p>
+                    <hr>
+                    <p>Total <strong>$185 USD</strong></p>
+                    <button class="button">Proceed to Checkout</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

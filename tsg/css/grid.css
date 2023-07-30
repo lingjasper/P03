@@ -1,0 +1,126 @@
+* { /* * means apply to everything */
+    box-sizing: border-box;    
+}
+body {
+    font-family: 'SourceSansPro' ,sans-serif;
+    margin: 0;
+}
+
+/* Product/Service Listing */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.product{
+    width: 350px;
+    height: 450px;
+}
+
+.product-img{
+    height: 350px;
+    background-size: cover;
+}
+/* Learned from https://www.youtube.com/watch?v=qXRYMdvq_Dc */
+.img-1{
+    background-image: url('/img/Destiny2\ Logo.png');
+}
+.img-1:hover{
+    background-image: url('/img/Destiny2\ Logo.png');
+    opacity: 80%;
+}
+.img-2{
+    background-image: url('/img/marathon.png');
+}
+.img-2:hover{
+    background-image: url('/img/marathon.png');
+    opacity: 80%;
+}
+.img-3{
+    outline:1px black solid;
+    background-image: url('/img/NERF\ Gjallarhorn.png');
+}
+.img-3:hover{
+    outline:1px black solid;
+    background-image: url('/img/NERF\ Gjallarhorn.png');
+    opacity: 80%;
+}
+/* Product/Service Listing */
+.colourContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
+.box-colour {
+    padding: 1em;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column; /* direction of the text */
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.brown{
+    outline:1px black solid;
+    background-color: #E2D8CB;
+}
+
+.white{
+    outline:1px black solid;
+    color: black;
+    background-color: white;
+}
+
+.black{
+    color: white;
+    background-color: black;
+}
+
+.grass-green{
+    color: white;
+    background-color: #009A17;
+}
+
+.green{
+    color: white;
+    background-color: green;
+}
+
+
+/* Primarily learned in lab, some extra help from https://www.w3schools.com/howto/howto_css_checkout_form.asp */
+/* checkout */
+.checkout-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 25px;
+    padding-bottom: 70px;
+}
+.cartcol{
+    outline:1px black solid;
+    justify-content: space-around;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+.checkout-container form{
+    padding: 20px;
+    width: 700px;
+}
+
+.checkout-container form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.checkout-container form .row.col{
+    flex: 1 1 250px;
+}
+
+/* space between info boxes*/
+.checkout-container form .row .col .infobox{
+    margin: 15px 0;
+}

@@ -1,0 +1,205 @@
+body {
+  font-family: 'SourceSansPro' ,sans-serif;
+  padding: 2rem;
+  background-color: #E2D8CB; 
+}
+
+h1, h2, h3, h4{ /* only headers ptsans font*/
+  font-family: 'PTSans';
+ }
+
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+.notbold{
+  font-weight:normal
+}​
+
+h2:not(.header2) {
+  margin-top: 6rem;
+}
+
+h3:not(.header3) {
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+h4:not(.header4) {
+  margin-bottom: 0.25rem;
+}
+
+p {
+  margin-top: 0;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.text-link{
+  color:#009A17;
+}
+ 
+.text-link:hover{
+  color: green;
+  text-decoration: underline;
+}
+.citation-link li > a{ /* new class for citation, gets the list and then the anchors inside*/
+  color: #009A17;
+}
+
+.citation-link:hover li > a{
+  color: green;
+  text-decoration: underline;
+}
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+code {
+  background-color: #EEE;
+  padding: 0.5rem;
+  display: block;
+}
+
+section{
+  margin-top: 2rem;
+}
+/* learned in lab */
+p, ul, ol {
+  max-width: 60rem;
+}
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+/* learned from https://www.w3schools.com/howto/howto_css_animate_buttons.asp*/
+.button {
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding: 5px 20px;
+  text-align: center;
+  background-color: #009A17;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px grey;
+}
+
+.button:hover {
+  background-color: green;
+  transition: background-color 0.3s ease-out;
+}
+
+.button:active {
+  background-color: #009A17;
+  box-shadow: 0 3px black;
+  transform: translateY(3px);
+}
+
+input[type=text]{
+  width: 15em;
+  border:1px solid black;
+  border-radius:5px;
+  margin: 10px 0;
+  outline:none;
+  padding: 10px;
+  box-sizing:border-box;
+  transition: 0.3s;
+}
+
+input[type=text]:focus{
+  border-color: #009A17;
+  box-shadow:0 0 8px 0 #009A17;
+}
+
+input[type=text]:hover{
+  background-color: rgb(239, 255, 239);
+}
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  background-color: rgb(50,50,50);
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.3s;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: rgb(200,200,200);
+}
+
+.link-button{
+  background-color:#009A17; 
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+/* learned in lab */
+.link-button:hover, .link-button:focus, .link-button:active{
+  background-color: green; /* #008000*/
+  color: white;
+  transition: background-color 0.3s ease-out;
+}
+
+img:hover, img:focus, img:active {
+  opacity: 80%;
+}
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+
+
+/* Main Nav learned from https://codepen.io/sreisner/pen/yOOOjx */
+.navbar {
+  Background-color: #009A17;
+}
+.navbar2 {
+  Background-color: green;
+}
+
+.nav-link {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 20px 0px;
+  margin: 0px 15px;
+  display: inline-block;
+  position: relative;
+}
+
+.nav-link::before {
+  transition: 350ms; /* time it takes for bar to appear*/
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: white;
+}
+
+.nav-bar-up::before {
+  height: 0;
+  width: 100%;
+  bottom: 0;
+}
+
+.nav-bar-up:hover::before {
+  height: 5px;
+}
+/* Main nav */
