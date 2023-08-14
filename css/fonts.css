@@ -1,11 +1,11 @@
 /* LEARNED IN LAB */
 
 @font-face {
-    font-family: 'Poppins-Regular', Verdana, sans-serif;
+    font-family: 'Poppins-Regular', Helvetica, sans-serif;
     font-weight: normal;
     font-style: normal;
     src:url(../fonts/Poppins-Regular.woff) format('woff'),
-        url(../fonts/Poppins-Regular.ttf) format('opentype'),
+        url(../fonts/Poppins-Regular.ttf) format('truetype'),
         url(../fonts/poppins-regular-webfont.woff) format('woff'),
         url(../fonts/poppins-regular-webfont.woff2) format('woff2');
         
