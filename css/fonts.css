@@ -5,7 +5,7 @@
     font-weight: normal;
     font-style: normal;
     src:url(../fonts/Poppins-Regular.woff) format('woff'),
-        url(../fonts/Poppins-Regular.ttf) format('truetype'),
+        url(../fonts/Poppins-Regular.ttf) format('opentype'),
         url(../fonts/poppins-regular-webfont.woff) format('woff'),
         url(../fonts/poppins-regular-webfont.woff2) format('woff2');
         
