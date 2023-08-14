@@ -5,8 +5,11 @@ body {
   padding: 2rem;
   background-color: #ffffff;
   color:rgb(0, 0, 0);
-  
+  font-weight: normal;
+ 
 }
+  
+
 /* HYPERLINK */
 a { 
   color: #000000;
